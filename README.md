@@ -8,4 +8,4 @@ update continuously...
 regular_expression about digital :see reg_digital.py
 
 
-<img src="https://github.com/fogCrow/regular_exp/blob/master/digital.png" width="300" height="85">
+<img src="https://github.com/fogCrow/regular_exp/blob/master/digital.png" width="60%" height="17%">
