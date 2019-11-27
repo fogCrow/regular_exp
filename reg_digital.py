@@ -1,3 +1,12 @@
+#include: positive integer(0 not included) eg: 1 2 3 4
+#([1-9][0-9]*)
+
+#include:integer(0 include) 、decimal eg:-1   0     1   2   3   4
+#(-?(0|([1-9][0-9]*)))
+
+#include:integer(0 include) 、decimal eg:-1   0     1    0.2    2.3    2.01
+#(-?((0|([1-9][0-9]*))(\.[0-9]*[1-9])?))  
+
 import re 
 class RegDigital:
     '''this class  obtains regualar expression about digital'''
@@ -7,15 +16,6 @@ class RegDigital:
 
         inputed_str:the data you want to be test 
         '''
-
-        #include: positive integer(0 not included) eg: 1 2 3 4
-        #([1-9][0-9]*)
-
-        #include:integer(0 include) 、decimal eg:-1   0     1   2   3   4
-        #(-?(0|([1-9][0-9]*)))
-
-        #include:integer(0 include) 、decimal eg:-1   0     1    0.2    2.3    2.01
-        #(-?((0|([1-9][0-9]*))(\.[0-9]*[1-9])?))  
 
         pattern = r''   #replace your regular expression
         regex = re.compile(pattern)
