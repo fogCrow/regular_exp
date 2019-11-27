@@ -7,6 +7,8 @@
 #include:integer(0 include) 、decimal eg:-1   0     1    0.2    2.3    2.01
 #(-?((0|([1-9][0-9]*))(\.[0-9]*[1-9])?))  
 
+
+#-----------------  sample following ------------------------------------
 import re 
 class RegDigital:
     '''this class  obtains regualar expression about digital'''
