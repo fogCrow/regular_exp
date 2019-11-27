@@ -26,13 +26,13 @@ class RegDigital:
 
 if __name__ == "__main__":
     RegDigital.match_digital('''Hello World -12.6
-Nihao  123
-How are you  -12
-1.24
-asdk 34%,
-precent 1/2
-2003 - 2005
-0
-0.123
-0123
-123/-0.2313''')
+                                Nihao  123
+                                How are you  -12
+                                1.24
+                                asdk 34%,
+                                precent 1/2
+                                2003 - 2005
+                                0
+                                0.123
+                                0123
+                                123/-0.2313''')
