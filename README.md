@@ -18,5 +18,6 @@ regular_expression about digital :see [reg_digital.py](https://github.com/fogCro
 #(-?((0|([1-9][0-9]*))(\.[0-9]*[1-9])?))  
 
 #include:integer(0 include) 、decimal、percentage eg:-1   0  0.2/0.3    2.3    2/1  
+
 #(-?((0|([1-9][0-9]*))(\.[0-9]*[1-9])?))(/(-?(0\.[0-9]*[1-9])|([1-9][0-9]*(\.[0-9]*[1-9])?)))?
 ```
