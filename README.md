@@ -21,3 +21,6 @@ regular_expression about digital :see [reg_digital.py](https://github.com/fogCro
 
 #(-?((0|([1-9][0-9]*))(\.[0-9]*[1-9])?))(/(-?(0\.[0-9]*[1-9])|([1-9][0-9]*(\.[0-9]*[1-9])?)))?
 ```
+
+14:04
+15:10
